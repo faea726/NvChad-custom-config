@@ -15,6 +15,10 @@ local sources = {
   -- solidity
   b.diagnostics.solhint,
 
+  --go
+  b.diagnostics.staticcheck,
+  b.formatting.gofumpt,
+
   -- webdev stuff
   b.formatting.deno_fmt,
   b.formatting.prettier.with { filetypes = { "html", "markdown", "css" } },

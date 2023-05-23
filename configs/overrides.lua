@@ -8,6 +8,8 @@ M.treesitter = {
     "python",
     "solidity",
 
+    "go",
+
     "html",
     "css",
     "javascript",
@@ -38,6 +40,11 @@ M.mason = {
     "ruff",
     "black",
     "isort",
+
+    -- go
+    "gopls",
+    "gofumpt",
+    "staticcheck",
 
     -- solidity
     "nomicfoundation-solidity-language-server",
