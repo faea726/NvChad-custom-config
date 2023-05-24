@@ -16,7 +16,7 @@ local sources = {
   b.diagnostics.solhint,
 
   --go
-  b.diagnostics.staticcheck,
+  b.diagnostics.golangci_lint,
   b.formatting.gofumpt,
 
   -- webdev stuff

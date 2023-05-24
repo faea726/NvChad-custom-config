@@ -44,7 +44,7 @@ M.mason = {
     -- go
     "gopls",
     "gofumpt",
-    "staticcheck",
+    "golangci-lint",
 
     -- solidity
     "nomicfoundation-solidity-language-server",
