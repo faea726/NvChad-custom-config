@@ -12,9 +12,6 @@ local sources = {
   b.formatting.isort,
   b.formatting.black,
 
-  -- solidity
-  b.diagnostics.solhint,
-
   --go
   b.diagnostics.golangci_lint,
   b.formatting.gofumpt,
