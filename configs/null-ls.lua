@@ -12,9 +12,12 @@ local sources = {
   b.formatting.isort,
   b.formatting.black,
 
-  --go
+  -- go
   b.diagnostics.golangci_lint,
   b.formatting.gofumpt,
+
+  -- rust
+  b.formatting.rustfmt,
 
   -- webdev stuff
   b.formatting.deno_fmt,

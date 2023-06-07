@@ -10,6 +10,8 @@ M.treesitter = {
 
     "go",
 
+    "rust",
+
     "html",
     "css",
     "javascript",
@@ -45,6 +47,10 @@ M.mason = {
     "gopls",
     "gofumpt",
     "golangci-lint",
+
+    -- rust
+    "rust-analyzer",
+    "rustfmt",
 
     -- web dev stuff
     "css-lsp",
