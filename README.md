@@ -6,5 +6,3 @@
 
 2. Clone this repository to
    [`custom` folder](https://nvchad.com/docs/config/walkthrough#config_structure)
-
-3. Install [Neovide](neovide.dev) for GUI usage
