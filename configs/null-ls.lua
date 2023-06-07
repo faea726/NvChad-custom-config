@@ -19,9 +19,12 @@ local sources = {
   -- rust
   b.formatting.rustfmt,
 
+  -- solidity
+  b.diagnostics.solhint,
+
   -- webdev stuff
   b.formatting.deno_fmt,
-  b.formatting.prettier.with { filetypes = { "html", "markdown", "css" } },
+  b.formatting.prettier.with { filetypes = { "html", "markdown", "css", "solidity" } },
   b.diagnostics.markdownlint,
 
   -- Lua

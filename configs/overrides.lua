@@ -52,6 +52,10 @@ M.mason = {
     "rust-analyzer",
     "rustfmt",
 
+    -- solidity
+    "nomicfoundation-solidity-language-server",
+    "solhint",
+
     -- web dev stuff
     "css-lsp",
     "html-lsp",
