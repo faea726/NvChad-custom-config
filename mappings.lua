@@ -1,12 +1,12 @@
 ---@type MappingsTable
 local M = {}
 
-function open_url()
+function OpenURL()
   local url = vim.fn.expand "<cfile>"
 
   if url:sub(1, 4) ~= "http" then
     -- Display notification if text is not a link
-    vim.notify("'" .. url .. "' is not a link", "warn", { title = "Neovim" })
+    vim.notify("'" .. url .. "' is not a link", 1, { title = "Neovim" })
     return
   end
 
@@ -24,7 +24,7 @@ end
 M.general = {
   n = {
     [";"] = { ":", "enter command mode", opts = { nowait = true } },
-    ["gx"] = { ":lua open_url()<CR>", "open link" },
+    ["gx"] = { ":lua OpenURL()<CR>", "open link" },
   },
 }
 
